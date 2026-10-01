@@ -15,7 +15,10 @@ public class NbQuickCheck {
       return;
     }
     System.out.println(root);
-    for(Int child : tree.get(root)){
+    for(int child : tree.get(root)){
+      preOrder(tree, child);
+
+
     
     }
     
