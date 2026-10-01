@@ -17,8 +17,6 @@ public class NbQuickCheck {
     System.out.println(root);
     for(int child : tree.get(root)){
       preOrder(tree, child);
-
-
     
     }
     
@@ -44,9 +42,7 @@ public class NbQuickCheck {
         min = minChild;
       }
 
-
     }
     return min;
 
-
-}
+}}
