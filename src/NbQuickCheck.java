@@ -40,8 +40,13 @@ public class NbQuickCheck {
     for(Node<Integer> child : root.children){
       int minChild = minVal(child);
 
+      if(minChild < min){
+        min = minChild;
+      }
+
 
     }
+    return min;
 
 
 }
