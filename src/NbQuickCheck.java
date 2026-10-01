@@ -37,5 +37,10 @@ public class NbQuickCheck {
    }
    int min = root.value;
 
-   
+    for(Node<Integer> child : root.children){
+      
+
+    }
+
+
 }
