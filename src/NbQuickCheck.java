@@ -15,7 +15,7 @@ public class NbQuickCheck {
       return;
     }
     System.out.println(root);
-    for(){
+    for(Int child : tree.get(root)){
     
     }
     
